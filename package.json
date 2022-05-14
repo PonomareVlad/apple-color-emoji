@@ -1,0 +1,22 @@
+{
+  "name": "applemoji",
+  "version": "1.0.0",
+  "description": "Import Apple Color Emoji images from CDN",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PonomareVlad/apple-color-emoji.git"
+  },
+  "keywords": [
+    "apple",
+    "color",
+    "emoji",
+    "cdn"
+  ],
+  "author": "PonomareVlad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PonomareVlad/applemoji-vercel/issues"
+  },
+  "homepage": "https://github.com/PonomareVlad/applemoji-vercel#readme"
+}

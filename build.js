@@ -8,7 +8,7 @@ var {Trie} = require('regexgen');
 rimraf.sync(__dirname + '/images');
 mkdirp.sync(__dirname + '/images');
 
-var collectionPath = '/System/Library/Fonts/Apple Color Emoji.ttc'; // >= OS X 10.12
+var collectionPath = process.env.COLLECTION_PATH || '/System/Library/Fonts/Apple Color Emoji.ttc'; // >= OS X 10.12
 var fontPath = '/System/Library/Fonts/Apple Color Emoji.ttf'; // <= OS X 10.11
 
 function getFont() {

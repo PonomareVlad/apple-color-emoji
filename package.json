@@ -21,6 +21,7 @@
   },
   "scripts": {
     "test": "mocha",
+    "build": "node build.js",
     "prepublish": "node build.js"
   }
 }

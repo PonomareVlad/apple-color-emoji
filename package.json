@@ -16,12 +16,13 @@
     "fontkit": "^1.5.0",
     "mkdirp": "^0.5.1",
     "mocha": "^2.2.5",
+    "node-fetch": "^3.2.4",
     "regexgen": "^1.2.3",
     "rimraf": "^2.4.0"
   },
   "scripts": {
     "test": "mocha",
-    "build": "node build.js",
-    "prepublish": "node build.js"
+    "build": "node build.mjs",
+    "prepublish": "node build.mjs"
   }
 }

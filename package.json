@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/devongovett/apple-color-emoji",
   "devDependencies": {
-    "fontkit": "^1.5.0",
+    "fontkit": "^2.0.2",
     "mkdirp": "^1.0.4",
     "mocha": "^10.0.0",
     "node-fetch": "^3.2.4",
